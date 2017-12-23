@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-tcp-eventbus-bridge:3.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-tcp-eventbus-bridge/3.5.0/677cfb8eb026884236394c9946ee5ad4c81fdd78/vertx-tcp-eventbus-bridge-3.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-tcp-eventbus-bridge/3.5.0/9aa2a1f14050723d560f61f214abcfa5eefd439f/vertx-tcp-eventbus-bridge-3.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

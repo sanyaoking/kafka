@@ -1,0 +1,27 @@
+group 'testkafka'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile "io.vertx:vertx-core:3.5"
+    compile 'io.vertx:vertx-kafka-client:3.5.0'
+//    compile 'org.apache.kafka:kafka_2.12:1.0.0'
+    compile group: 'org.apache.kafka', name: 'kafka-clients', version: '1.0.0'
+    compile 'com.hubrick.vertx:vertx-kafka-consumer:2.0.2'
+    compile group: 'org.apache.kafka', name: 'kafka_2.12', version: '1.0.0'
+    //bridge测试
+    compile 'io.vertx:vertx-tcp-eventbus-bridge:3.5.0'
+    //webclient
+    compile 'io.vertx:vertx-web-client:3.5.0'
+    //web
+    compile 'io.vertx:vertx-web:3.5.0'
+}
